@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Eriocnemis, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="sales_order_grid">
+        <column name="invoice_ids" xsi:type="varchar" nullable="true" length="255" comment="Invoice Ids"/>
+        <index referenceId="SALES_ORDER_GRID_INVOICE_IDS" indexType="btree">
+            <column name="invoice_ids"/>
+        </index>
+    </table>
+</schema>

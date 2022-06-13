@@ -11,7 +11,7 @@
         <column name="invoice_ids">
             <settings>
                 <filter>text</filter>
-                <label translate="true">Invoices</label>
+                <label translate="true">Invoice IDs</label>
             </settings>
         </column>
     </columns>

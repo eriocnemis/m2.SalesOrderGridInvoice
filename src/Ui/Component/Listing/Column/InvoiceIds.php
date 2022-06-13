@@ -10,7 +10,7 @@ namespace Eriocnemis\SalesOrderGridInvoiceAdminUi\Ui\Component\Listing\Column;
 use Magento\Framework\App\ResourceConnection;
 
 /**
- * Retrieve invoice ids column sub select
+ * Retrieve invoice ids
  */
 class InvoiceIds
 {

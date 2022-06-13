@@ -5,7 +5,7 @@
  */
 declare(strict_types=1);
 
-namespace Eriocnemis\SalesOrderGridInvoice\Ui\Component\Listing\Column;
+namespace Eriocnemis\SalesOrderGridInvoiceAdminUi\Ui\Component\Listing\Column;
 
 use Magento\Framework\App\ResourceConnection;
 

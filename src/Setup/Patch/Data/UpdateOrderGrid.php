@@ -5,12 +5,12 @@
  */
 declare(strict_types=1);
 
-namespace Eriocnemis\SalesOrderGridInvoice\Setup\Patch\Data;
+namespace Eriocnemis\SalesOrderGridInvoiceAdminUi\Setup\Patch\Data;
 
 use Magento\Framework\Setup\ModuleDataSetupInterface;
 use Magento\Framework\Setup\Patch\DataPatchInterface;
 use Magento\Framework\Setup\Patch\PatchVersionInterface;
-use Eriocnemis\SalesOrderGridInvoice\Ui\Component\Listing\Column\InvoiceIds;
+use Eriocnemis\SalesOrderGridInvoiceAdminUi\Ui\Component\Listing\Column\InvoiceIds;
 
 /**
  * Upgrade DB patch

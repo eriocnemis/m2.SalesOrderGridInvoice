@@ -10,7 +10,7 @@
     <virtualType name="Magento\Sales\Model\ResourceModel\Order\Grid">
         <arguments>
             <argument name="columns" xsi:type="array">
-                <item name="invoice_ids" xsi:type="object">Eriocnemis\SalesOrderGridInvoice\Ui\Component\Listing\Column\InvoiceIds</item>
+                <item name="invoice_ids" xsi:type="object">Eriocnemis\SalesOrderGridInvoiceAdminUi\Ui\Component\Listing\Column\InvoiceIds</item>
             </argument>
         </arguments>
     </virtualType>

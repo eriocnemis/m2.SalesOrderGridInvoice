@@ -9,6 +9,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Eriocnemis_SalesOrderGridInvoice',
+    'Eriocnemis_SalesOrderGridInvoiceAdminUi',
     __DIR__
 );
